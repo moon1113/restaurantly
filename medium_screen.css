@@ -1,0 +1,87 @@
+
+@media screen and (max-width: 768px){
+  /*.rb_bgimage .rb_bttn_icon{
+    color:white !important;
+  }
+
+  .rb_bgimage .rb_bttn{
+  	border:none;
+   r\e
+   4e4
+
+  .rb_bgimage .navbar-toggler:focus{
+    outline: 0px auto -webkit-focus-ring-color;
+  }*/
+  button:focus{
+	outline: 0px auto -webkit-focus-ring-color;
+	}
+
+	/*.rb_responsive{
+		display: none;
+	}*/
+	.rb_response_bttn{
+		text-align: center;
+		margin-bottom: 110px;
+	}
+
+	.rb_response_nav{
+	border:2px solid rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    background: black;
+    height: fit-content;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+	}	
+
+	.rb_show_hide{
+		display: block;
+	}
+
+	.rb_button_play{
+		padding-top: 150px;
+	}
+
+	.rb_center8{
+		text-align: center;
+		padding-left: 0px;
+	}
+
+	.rb_box{
+		padding:1px 20px;
+	}
+	.rb_box_margin{
+		margin: 0px 15px;
+	}
+
+	.rb_border_orange{
+		border-right:none;
+	}
+
+}
+/*.....*/
+@media screen and (max-width: 768px){
+	.rb_carousel_show{
+		display: block !important;
+	}
+
+}
+@media screen and (max-width: 768px){
+	.rb_carousel_hide{
+		display: none !important;
+	}
+
+}
+
+
+
+/*SMALL DEVICE MEDIA QUERY*/
+
+@media screen and (max-width: 600px){
+	.rb_bgimage .rb_bttn_icon{
+		color:red !important;
+	}
+}
