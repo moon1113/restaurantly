@@ -12,6 +12,7 @@
   .rb_bgimage .navbar-toggler:focus{
     outline: 0px auto -webkit-focus-ring-color;
   }*/
+
   button:focus{
 	outline: 0px auto -webkit-focus-ring-color;
 	}
