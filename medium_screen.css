@@ -1,5 +1,5 @@
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 992px){
   /*.rb_bgimage .rb_bttn_icon{
     color:white !important;
   }
@@ -68,14 +68,11 @@
 		display: block !important;
 	}
 
-}
-@media screen and (max-width: 768px){
 	.rb_carousel_hide{
 		display: none !important;
 	}
 
 }
-
 
 
 /*SMALL DEVICE MEDIA QUERY*/
