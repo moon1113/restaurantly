@@ -116,9 +116,10 @@ nav a{
 	color: white;	
 	border:solid 2px #cda45e;
 	background: transparent;
-	padding:7px 0px;
-	width: 140px;
-	font-size: 14px;
+	width: 117px;
+	font-size: 12px;
+	font-weight: 700;
+	height: 35px;
 }
 .rb_toggler{
 	color:white !important;
