@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="medium_screen.css">
 </head>
 <body>
-	<div class="container-fluid">
+	<div class="container-fluid p-0">
 		<div class="row">
 			<div class="col-lg-12">
 				<header>
@@ -49,16 +49,16 @@
     								<a data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" class="text-right pr-3 pt-2 rb_show_hide">
     									<i class="fa fa-times rb_fonts"></i>
     								</a>
-      							<a class="nav-link rb_active rb_pad_lr" href="#">Home
+      							<a class="nav-link rb_active rb_pad_lr" href="#home">Home
       							</a>
-      							<a class="nav-link rb_pad_lr" href="#">About</a>
-      							<a class="nav-link rb_pad_lr" href="#">Menu</a>
-      							<a class="nav-link rb_pad_lr" href="#">Specials</a>
-      							<a class="nav-link rb_pad_lr" href="#">Events</a>
-      							<a class="nav-link rb_pad_lr" href="#">Gallery</a>
-      							<a class="nav-link rb_pad_lr" href="#">Chefs</a>
-      							<a class="nav-link rb_pad_lr" href="#">Contact</a>
-      							<a class="nav-link rb_pad_lr rb_response_bttn" href="#">
+      							<a class="nav-link rb_pad_lr" href="#AboutPart">About</a>
+      							<a class="nav-link rb_pad_lr" href="#MenuPart">Menu</a>
+      							<a class="nav-link rb_pad_lr" href="#SpecialPart">Specials</a>
+      							<a class="nav-link rb_pad_lr" href="#EventsPart">Events</a>
+      							<a class="nav-link rb_pad_lr" href="#GalleryPart">Gallery</a>
+      							<a class="nav-link rb_pad_lr" href="#ChefsPart">Chefs</a>
+      							<a class="nav-link rb_pad_lr" href="#ContactPart">Contact</a>
+      							<a class="nav-link rb_pad_lr rb_response_bttn" href="#TablePart">
       								<button class="rb_table">BOOK A TABLE</button>
       							</a>
     							</div>
@@ -70,12 +70,14 @@
 				</header>
 			
 				<!--About Page Start-->
-				<section>
+				<section id="AboutPart">
 					<div class="rb_2nd_bgimg pt-4 pb-4">
 						<div class="container">
-							<div class="col-lg-6 col-12 float-right">
-							<img src="img/about.jpg" alt="table_seat" class="rb_width_img img-fluid">
-						</div>
+							<div class="col-lg-6 col-12 float-right rb_zoom_out">
+							<img src="img/about.jpg" alt="table_seat" class="rb_width_img img-fluid position-relative">
+							<div class="rb_angle"></div>
+							<div class="rb_angle2"></div>
+							</div>
 						<div class="col-lg-6 col-12 text-white">
 							<h1 class="rb_head1">Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h1>
 							<p class="rb_para1"><i>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</i></p>
@@ -126,7 +128,7 @@
 				<!--About Page End-->
 
 				<!--Menu section start-->
-				<section>
+				<section id="MenuPart">
 						<div class="row rb_bg_black pt-4 m-0">
 							<div class="container">
 								<div  class="col-lg-12">
@@ -265,7 +267,7 @@
 				</section>
 				<!--Menu section End-->
 				<!--special part start-->
-				<section>
+				<section id="SpecialPart">
 					<div class="row rb_background_c m-0">
 						<div class="container">
 							<div class="col-lg-12 pb-4 pt-4">
@@ -356,13 +358,13 @@
 				</section>
 				<!--special part end-->
 				<!--Event part start-->
-				<section>
+				<section id="EventsPart">
 					<div class="row m-0 rb_event_bg">
 						<div class="container">
 							<div class="col-12 pb-4">;
 							<h6 class="text-white">EVENTS______________</h6>
 							<h1 class="rb_color_text">Organize Your Events in our Restaurant</h1>
-						</div>
+							</div>
 						<div class="rb_bgrow">
 							<div id="carouselExampleIndicators" class="carousel slide rb_opacity" data-ride="carousel">
   						<ol class="carousel-indicators">
@@ -436,7 +438,7 @@
 			</section>
 				<!--Event part end-->
 				<!--Table part start-->
-				<section>
+				<section id="TablePart">
 					<div class="row rb_bg_black m-0 pt-4 pb-4">
 						<div class="container">
 							<div class="col-lg-12">
@@ -668,7 +670,8 @@
 				</section>
 				<!--Table part End-->
 				<!--Gallery part start-->
-				<div class="row m-0 rb_bg_black rb_top_bot_pad">
+				<section id="GalleryPart">
+					<div class="row m-0 rb_bg_black rb_top_bot_pad">
 					<div class="container">
 						<div class="col-lg-12 pb-4">
 						<h6 class="text-white">GALLERY_________________</h6>
@@ -720,9 +723,20 @@
 					</div>
 					
 				</div>
+
+				</section>
 				<!--Gallery part End-->
 				<!--Chef part start-->
-				<div class="row rb_bg_black m-0 rb_top_bot_pad">
+				<section>
+					
+				</section>
+				
+				<!--Chef part End-->
+
+				<!--Contact part Start-->
+				<!--map part start-->
+				<section id="ChefsPart">
+					<div class="row rb_bg_black m-0 rb_top_bot_pad">
 					<div class="container">
 						<div class="col-lg-12 pb-4">
 						<h6 class="text-white">CHEFS__________________</h6>
@@ -796,16 +810,10 @@
 					</div>
 					
 				</div>
-				<!--Chef part End-->
-
-				<!--Contact part Start-->
-				<!--map part start-->
-				<section>
-					
 				</section>
 				<!--map part start-->
 				<!--2nd part of map start-->
-				<section>
+				<section id="ContactPart">
 					<div class="row rb_bg_black m-0 border-bottom pt-4 pb-4">
 						<div class="container d-lg-flex">
 						<div class="col-lg-4 col-12">
@@ -893,7 +901,7 @@
 					</div>
 					
 				</section>
-				<!--2nd part of map start-->
+				<!--2nd part of map end-->
 				<!--Contact part End-->
 				<footer>
 				<div class="row rb_bg_black m-0 pt-4 pb-4">
@@ -999,11 +1007,12 @@
 						<h4>Our Newsletter</h4>
 						<h6>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</h6>
 						<div class="input-group mb-3">
-  						<input type="text" class="form_control" aria-label="Recipient's username" aria-describedby="button-addon2">
- 						 	<div class="input-group-append rb_radius">
-    						<button class="btn btn-outline-secondary text-white rb_sub_bttn" type="button" id="button-addon2">Subscribe</button>
+  						<input type="text" class="form-control rb_control" aria-label="Recipient's username" aria-describedby="button-addon2">
+  						<div class="input-group-append">
+    						<button class="btn btn-outline-secondary rb_sub_bttn" type="button" id="button-addon2">Subscribe</button>
   						</div>
 						</div>
+
 					</div>
 				</div>
 				<!--...-->
