@@ -89,7 +89,7 @@ nav a{
 }
 
 .rb_rgba{
-	background-color: rgba(0,0,0,0.7);
+	background-color: rgba(12,11,9,0.7);
 }
 .rb_image_opa{
 	background-color: rgba(0,0,0,0.4);
@@ -143,20 +143,6 @@ nav a{
 	font-weight: 500;
 }
 
-.rb_round_icon{
-	width:95px;
-	height: 95px;
-	border-radius: 50%;
-	border:solid 1px transparent;
-	background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
-	color: white;
-	font-size: 23px;
-	position: absolute;
-	top:50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-}
-
 #xoxo{
 	width: 100%;
 	padding: 1px 90px;
@@ -168,15 +154,6 @@ nav a{
 }
 .rb_show_hide{
 	display: none;
-}
-
-
-.rb_bgimagess{
-	background-image: url(img/hero-bg.jpg);
-	height: 100vh;
-	width:100%;
-	background-size: cover;
-	background-size: 100% 100%;
 }
 
 .rb_pad_top{
@@ -522,6 +499,43 @@ right: 0;
 	margin-top: 30px;
 }
 
+.rb_playbttn{
+	width: 95px;
+	height: 95px;
+	border-radius: 50px;
+	position: relative;
+	border:solid 1px transparent;
+	background: radial-gradient(#cda45e 50%, rgba(205, 164, 94, 0.4) 52%);
+}
 
+.rb_play_abso{
+	position: absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	color: white;
+	font-size: 22px;
+	
+}
+.rb_menu_bttn{
+	border-radius: 40px;
+	border:solid 2px #cda45e;
+	padding: 6px 22px;
+	font-weight: 700;
+	background-color: transparent;
+}
+.rb_restauranly_color{
+	color: #cda45e;
+}
+.rb_welspan{
+	font-size: 50px;
+	font-weight: 700;
+}
 
+.rb_rastro_img{
+	background-image: url(restaurantly/img/hero-bg.jpg);
+	height: auto;
+	width:100%;
+	background-size: 100% 100%;
+}
 
