@@ -500,6 +500,7 @@ right: 0;
 }
 
 .rb_playbttn{
+	margin: auto;
 	width: 95px;
 	height: 95px;
 	border-radius: 50px;
@@ -529,8 +530,8 @@ right: 0;
 	color: #cda45e;
 }
 .rb_welspan{
-	font-size: 55px;
-	font-weight: 700;
+	font-size: 50px;
+	font-weight: 900;
 }
 
 .rb_rastro_img{
@@ -541,6 +542,9 @@ right: 0;
 	background:cover;
 }
 .rb_delivery{
-	font-size: 23px;
+	font-size: 22px;
 	color: white;
+}
+.rb_head_top{
+	padding-top: 170px;
 }
