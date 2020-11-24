@@ -275,9 +275,9 @@ right: 0;
 }
 
 .nav-link{
-	padding: 7px 12px !important;
 	font-weight: 700;
 }
+
 .nav-pills .nav-link{
 	border-radius:0px !important;
 }
@@ -536,7 +536,7 @@ right: 0;
 
 .rb_rastro_img{
 	background-image: url(img/hero-bg.jpg);
-	height:100vh;
+	height:auto;
 	width:100%;
 	background-size: 100% 100%;
 	background:cover;
